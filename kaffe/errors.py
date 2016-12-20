@@ -1,7 +1,9 @@
 import sys
 
+
 class KaffeError(Exception):
-    pass
+  pass
+
 
 def print_stderr(msg):
-    sys.stderr.write('%s\n' % msg)
+  sys.stderr.write('%s\n' % msg)
